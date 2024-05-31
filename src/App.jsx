@@ -1,33 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <iframe style={{ width: "100%", height: "100%" }} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FvFpGreQeOMqJpyB5U5v9VK%2FPartner-Basecamp%3Fpage-id%3D1659%253A207085%26node-id%3D1659-207124%26viewport%3D1629%252C603%252C0.12%26t%3DpHGeGGAzK5x0QEUw-1%26scaling%3Dcontain%26starting-point-node-id%3D1659%253A207086" allowfullscreen></iframe>
+
     </>
   )
 }
