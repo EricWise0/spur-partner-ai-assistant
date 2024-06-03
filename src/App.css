@@ -3,3 +3,24 @@
   width: 100vw;
   height: 100vh;
 }
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.copilot-button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  bottom: 80px;
+  right: 80px;
+  z-index: 1;
+}
+
+.copilot-button:hover {
+  transform: scale(1.1);
+  transition: 200ms;
+}
