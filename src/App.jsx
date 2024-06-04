@@ -17,8 +17,9 @@ function App() {
         contentLabel="Example Modal"
         style={{
           content: {
-            width: '800px', // or any desired width
-            height: '500px', // or any desired height
+            width: '800px',
+            height: '500px',
+            inset: '20% 30%',
           }
         }}
       >

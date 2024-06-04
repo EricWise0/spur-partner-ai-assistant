@@ -24,3 +24,16 @@
   transform: scale(1.1);
   transition: 200ms;
 }
+
+.ReactModal__Content {
+  position: absolute;
+  inset: 100px;
+  border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 800px;
+  height: 500px;
+}
