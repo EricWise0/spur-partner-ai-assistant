@@ -19,7 +19,7 @@ function App() {
           content: {
             width: '800px',
             height: '500px',
-            inset: '10% 20%',
+            inset: '20% 28%',
             overflow: 'hidden',
             border: '2px solid rgb(11, 85, 106)',
           }
